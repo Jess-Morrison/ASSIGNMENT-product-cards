@@ -1,3 +1,36 @@
-body{
+.yellow-card{
   background-color: darkturquoise;
+  border-style: dotted;
+  border-color: aqua;
+}
+
+.card-title{
+  border: 1px ;
+  border-color: lightblue;
+  text-align: center;
+}
+img{
+  text-align: center;
+}
+
+.product-description{
+  justify-content: space-around;
+  padding: 10px
+}
+
+.availability{
+  color: yellow;
+  background-color: grey;
+  
+}
+
+.specifications{
+  padding: 10px;
+}
+.pricing{
+  padding: 10px;
+}
+
+footer{
+  padding: 10px;;
 }
