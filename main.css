@@ -1,21 +1,35 @@
-.yellow-card{
-  background-color: darkturquoise;
+
+body{
+  /* height: auto;
+  width: auto; */
+  display:flex;
+  
+}
+.card{
+  background-color: aliceblue;
   border-style: dotted;
   border-color: aqua;
+  
+  
+  /* margin: 10px */
+  
 }
 
 .card-title{
   border: 1px ;
   border-color: lightblue;
   text-align: center;
+  
 }
-img{
-  text-align: center;
+.card-img-top{
+  /* text-align: center; */
+  
+  
 }
 
 .product-description{
   justify-content: space-around;
-  padding: 10px
+  /* padding: 10px */
 }
 
 .availability{
@@ -24,6 +38,14 @@ img{
   
 }
 
+.card-body{
+padding:0px;
+margin: 0px;
+
+
+}
+  
+  
 .specifications{
   padding: 10px;
 }
@@ -32,5 +54,5 @@ img{
 }
 
 footer{
-  padding: 10px;;
+  padding: 10px;
 }
